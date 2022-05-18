@@ -2,9 +2,10 @@
   "name": "swagger_api",
   "version": "1.0.0",
   "description": "",
-  "main": "src/server.ts",
+  "main": "electron/index.js",
   "scripts": {
-    "dev": "echo \"Starting Swagger Generator\" && node src/server.ts"
+    "dev_server": "nodemon backend/src/server.ts",
+    "dev_electron": "electron ."
   },
   "keywords": [
     "swagger"
@@ -12,6 +13,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "electron": "^18.2.3",
     "express": "^4.18.1",
     "swagger-ui-express": "^4.3.0",
     "uuid": "^8.3.2"

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Swagger UI - Login</title>
+		<link rel="stylesheet" href="./topWindow.css" />
+	</head>
+	<body>
+		<div id="container">
+			<!-- <nav>
+				<div id="titleShown"></div>
+				<div id="inter-buttons"></div>
+				<div id="buttons">
+					<div id="close">
+						<span>&times;</span>
+					</div>
+					<div id="maximize">
+						<span>+</span>
+					</div>
+					<div id="minimize">
+						<span>-</span>
+					</div>
+					<button id="close">
+						<span>&times;</span>
+					</button>
+					<button id="maximize" onclick="maximizeWindow()">
+						<span>+</span>
+					</button>
+					<button id="minimize" onclick="minimizeWindow()">
+						<span>-</span>
+					</button>
+				</div>
+			</nav> -->
+			<main>
+				<header>
+					<h1>Bem-vindo ao projeto</h1>
+					<small>Swagger Documentation Generator</small>
+				</header>
+				<section>
+					<form action="http://localhost:3002/login">
+						<div>
+							<label for="uname">Username:</label>
+							<input
+								type="text"
+								id="uname"
+								name="uname"
+								value="mariojg@triscal.com.br"
+							/>
+						</div>
+						<div>
+							<label for="pword">Password:</label>
+							<input
+								type="password"
+								id="pword"
+								name="pword"
+								value="@6991oiraM"
+							/><br /><br />
+						</div>
+						<input type="submit" value="Autenticar" />
+					</form>
+				</section>
+			</main>
+		</div>
+		<script src="./script.js"></script>
+		<script src="../createWindow.js"></script>
+	</body>
+</html>

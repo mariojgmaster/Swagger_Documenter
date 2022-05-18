@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+# Swagger Documentation Generator
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
